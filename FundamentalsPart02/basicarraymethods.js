@@ -16,3 +16,7 @@ console.log(arr);//[ 'Akhil', 'Kishore' ]
 const shifted=arr.shift();//removes and returns first element of an array
 console.log(shifted);//Akhil
 console.log(arr);//["Kishore"]
+console.log(arr.includes("Kishore"));// returns true
+console.log(arr.includes("Akhil"));//returns false
+console.log(arr.indexOf("Kishore"));//0
+console.log(arr.indexOf("Akhil"));// -1 as element is not present
